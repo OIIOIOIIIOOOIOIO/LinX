@@ -1,0 +1,45 @@
+# Build outputs
+/bin/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Local configuration and environment secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*credentials*
+*secret*
+*session*
+*cookies*
+
+# Browser profiles and LINX runtime state
+/linx-chrome/
+/chrome-profile/
+/user-data-dir/
+/linx-runtime/
+/linx-extension-download.*/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Editor and workspace metadata
+/.agents/
+/.codex/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
